@@ -1,0 +1,509 @@
+/* ===== 01. Global Style ===== */
+
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+
+    h5 {
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .hover1 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .hover1 {
+        background-size: 950px;
+    }
+
+}
+
+/* ===== End of 01. Global Style ===== */
+
+/* ========= 1.1. Header section ======== */
+
+@media screen and (max-width: 991px) {
+    header .nav-link {
+        padding: 0 10px 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    header .nav-link {
+        padding: 0 8px 0 8px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    header .nav-link {
+        padding: 0 6px 0 6px;
+    }
+
+}
+
+/* ========= End of 1.1. Header section ======== */
+
+/* ========= 1.2. Hero section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Hero p {
+        padding-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Hero p {
+        padding-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Hero p {
+        padding: 10px 0 0 0px;
+        border-top: 2px solid;
+        border-left: 0;
+    }
+
+}
+
+/* ========= End of 1.2. Hero section ======== */
+
+/* ========= 1.3. Mission section ======== */
+@media screen and (max-width: 1399px) {
+    .MX-Mission p:nth-of-type(1) {
+        padding: 25px 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .MX-Mission {
+        padding-top: 70px;
+    }
+
+    .MX-Mission p:nth-of-type(1) {
+        padding: 20px 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .MX-Mission {
+        padding-top: 50px;
+    }
+
+    .MX-Mission p:nth-of-type(1) {
+        padding: 15px 0 0 0;
+    }
+
+
+
+}
+
+/* ========= End of 1.3. MX-Mission section ======== */
+
+/* ========= 1.4. Features section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Features p {
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Features p {
+        padding-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Features {
+        padding: 70px 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Features {
+        padding: 50px 0;
+    }
+
+}
+
+/* ========= End of 1.4. Features section ======== */
+
+/* ========= 1.5. Shop-Categories section ======== */
+
+@media screen and (max-width: 991px) {
+    .Shop-categories {
+        padding: 70px 0 70px 0;
+    }
+
+    .Shop-categories h2 {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Shop-categories {
+        padding: 50px 0 50px 0;
+    }
+
+    .Shop-categories h2 {
+        padding-bottom: 30px;
+    }
+}
+
+/* ========= End of 1.5. Shop-Categories section ======== */
+
+/* ========= 1.6. Shop-setups section ======== */
+
+@media screen and (max-width: 991px) {
+    .Shop-setups {
+        padding: 70px 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Shop-setups {
+        padding: 50px 0;
+    }
+
+    .Shop-setups p {
+        padding: 15px 0 30px 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Shop-setups .position-absolute {
+        bottom: 0%;
+        left: 0%;
+    }
+
+
+}
+
+/* ========= End of 1.6. Shop-setups section ======== */
+
+/* ========= 1.7. Discover section ======== */
+
+@media screen and (max-width: 1199px) {
+    .Discover p {
+        padding: 15px 70px 20px 0;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Discover p {
+        padding: 15px 0px 20px 0;
+    }
+
+    .Discover .m-0 {
+        padding: 70px 0 100px 0;
+    }
+
+    .Discover .m-auto {
+        padding: 70px 0;
+    }
+
+    .Discover {
+        padding-bottom: 70px;
+    }
+
+    .Discover .row {
+        row-gap: 50px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Discover img {
+        width: 100%;
+    }
+
+    .Discover .m-auto {
+        padding: 50px 0;
+    }
+
+    .Discover {
+        padding-bottom: 50px;
+    }
+
+    .Discover .row {
+        row-gap: 40px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Discover img {
+        width: 100%;
+    }
+
+}
+
+/* ========= End of 1.7. Discover section ======== */
+
+/* ========= 1.8. FAQS section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Faqs .accordion-item {
+        padding: 0 50px;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Faqs {
+        padding-bottom: 70px;
+    }
+
+    .Faqs .accordion-item {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Faqs {
+        padding-bottom: 50px;
+    }
+
+    .Faqs .accordion-body {
+        padding: 10px 30px 30px 30px;
+    }
+
+    .Faqs button:not(:disabled) {
+        padding: 30px 30px 30px 30px;
+    }
+
+
+}
+
+
+
+/* ========= End of 1.8. FAQS section ======== */
+
+/* ========= 1.9. Reason section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Reason h5 {
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Reason p {
+        padding: 10px 90px 120px 90px;
+    }
+
+    .Reason h5 {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Reason h5 {
+        padding-right: 50px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .Reason p {
+        padding: 10px 0 70px 0;
+    }
+
+    .Reason {
+        padding-bottom: 70px;
+    }
+
+    .Reason .m-0 {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Reason h5 {
+        padding-right: 0px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .Reason p {
+        padding: 10px 0 30px 0;
+    }
+
+    .Reason {
+        padding-bottom: 50px;
+    }
+
+    .Reason h3 {
+        padding: 10px 0 15px 0;
+    }
+
+}
+
+/* ========= End of 1.9. Reason section ======== */
+
+/* ========= 1.10. Customer section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Customer h2 {
+        padding: 100px 700px 30px 0;
+    }
+
+    .Customer p:nth-of-type(1) {
+        padding: 15px 0 50px 0;
+
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Customer h2 {
+        padding: 100px 500px 30px 0;
+    }
+
+    .Customer .m-0 {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Customer h2 {
+        padding: 70px 0 30px 0;
+    }
+
+    .Customer .position-absolute {
+        bottom: 90%;
+        left: 95%;
+    }
+
+    .Customer p {
+        font-size: 18px;
+    }
+
+    .Customer p:nth-of-type(1) {
+        padding: 15px 20px 30px 0;
+    }
+
+    .Customer .row {
+        padding-bottom: 70px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Customer p:nth-of-type(1) {
+        padding: 15px 0 20px 0;
+    }
+
+    .Customer .position-absolute {
+        bottom: 80%;
+        left: 90%;
+    }
+
+    .Customer h2 {
+        padding: 50px 0 30px 0;
+    }
+
+    .Customer .row {
+        padding-bottom: 50px;
+    }
+
+
+}
+
+/* ========= End of 1.10. Customer section ======== */
+
+/* ========= 1.11. Footer section ======== */
+
+@media screen and (max-width: 991px) {
+    footer {
+        padding: 70px 0 50px 0;
+    }
+
+    footer .m-0 {
+        column-gap: 50px;
+    }
+
+    footer .m-auto {
+        padding-top: 50px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding: 50px 0 50px 0;
+    }
+
+    footer .m-0 {
+        column-gap: 30px;
+        row-gap: 40px;
+    }
+
+    footer .p-0 {
+        column-gap: 5px;
+    }
+
+    footer .m-auto {
+        padding-top: 30px;
+    }
+
+
+
+
+}
+
+/* ========= End of 1.11. Footer section ======== */

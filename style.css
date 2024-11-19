@@ -1,0 +1,695 @@
+/* import font family is == Inter ==*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* =====  01. Reset  ====== */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1;
+    background: #FFFFFF;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: #ffffff;
+    -webkit-text-fill-color: #7B7B7B;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+select::-ms-expand {
+    display: none;
+}
+
+label {
+    font-weight: normal;
+}
+
+iframe {
+    width: 100%;
+}
+
+.container {
+    overflow-y: visible !important;
+}
+
+/* =====  End of 01. Reset  ====== */
+/* ===== 02. Global Style ===== */
+
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 35px;
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    font-family: "Inter", sans-serif;
+
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 13px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.hover {
+    font-size: 11px;
+    color: #000000;
+    padding: 14px 17px;
+    border-radius: 22px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.hover1 {
+    color: #000;
+    border: 3px solid #06FFE2;
+    background-image: -webkit-linear-gradient(30deg, #06FFE2 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #06FFE2 50%, transparent 50%);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 400ms ease-in-out;
+    transition: background 400ms ease-in-out;
+
+}
+
+.hover1:hover {
+    background-position: 100%;
+    color: #06FFE2;
+
+}
+
+/* ===== End of 02. Global Style ===== */
+
+/* ===== 1.1 Header Section ===== */
+
+header img {
+    width: 115px;
+}
+
+header .d-flex a {
+    color: #000000;
+}
+
+header .d-flex a:hover {
+    color: #82aca7;
+}
+
+
+
+/* ========= End of 1.1. Header section ======== */
+
+/* ========= 1.2. Hero section ======== */
+
+.Hero {
+    background: linear-gradient(rgba(15, 15, 15, 0.5), rgba(27, 28, 29, 0.7)), url(assets/images/Hero_Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 180px 0;
+    color: #FFFFFF;
+}
+
+.Hero .d-flex {
+    column-gap: 30px;
+}
+
+.Hero p {
+    line-height: 23px;
+    padding: 5px 110px 8px 30px;
+    border-left: 2px solid;
+}
+
+.Hero h1 {
+    letter-spacing: 4px;
+}
+
+/* ========= End of 1.2. Hero section ======== */
+
+/* ========= 1.3. Mission section ======== */
+.MX-Mission {
+    padding-top: 100px;
+}
+
+.MX-Mission p:nth-of-type(1) {
+    padding: 25px 50px 0 0;
+}
+
+.MX-Mission img {
+    width: 100%;
+}
+
+/* ========= End of 1.3. MX-Mission section ======== */
+
+/* ========= 1.4. Features section ======== */
+.Features {
+    padding: 100px 0;
+}
+
+.Features img {
+    width: 100%;
+}
+
+.Features h3 {
+    padding: 20px 0 15px 0;
+}
+
+.Features p {
+    padding-right: 70px;
+}
+
+/* ========= End of 1.4. Features section ======== */
+
+/* ========= 1.5. Shop-Categories section ======== */
+
+.Shop-categories {
+    background-color: #E5E5E5;
+    padding: 100px 0;
+}
+
+.Shop-categories h2 {
+    padding-bottom: 60px;
+}
+
+.Shop-categories img {
+    width: 100%;
+}
+
+.Shop-categories .position-absolute {
+    bottom: 8%;
+    left: 10%;
+}
+
+.Shop-categories h5 {
+    color: #000000;
+}
+
+/* ========= End of 1.5. Shop-Categories section ======== */
+
+/* ========= 1.6. Shop-setups section ======== */
+
+.Shop-setups {
+    padding: 100px 0;
+}
+
+.Shop-setups p {
+    padding: 15px 0 70px 0;
+}
+
+.Shop-setups .position-relative img {
+    width: 100%;
+}
+
+.Shop-setups .position-absolute {
+    bottom: 5%;
+    left: 3%;
+}
+
+.Shop-setups .m-0 {
+    padding: 20px 20px;
+    background-color: #E5E5E5;
+    border-radius: 22px;
+}
+
+.Shop-setups .m-0:hover {
+    background-color: #c1bfbf;
+    transition: 1s ease;
+}
+
+.Shop-setups .d-flex {
+    column-gap: 10px;
+}
+
+.Shop-setups .d-flex img {
+    width: 35px;
+}
+
+/* ========= End of 1.6. Shop-setups section ======== */
+
+/* ========= 1.7. Discover section ======== */
+
+
+.Discover {
+    padding-bottom: 100px;
+}
+
+.Discover .m-0 {
+    padding: 100px 0 160px 0;
+    background-image: url(assets/images/Discover-bg_Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.Discover .m-0 p {
+    font-size: 20px;
+    padding: 30px 0 35px 0;
+}
+
+.Discover .hover1 {
+    padding: 17px 50px;
+    font-size: 16px;
+}
+
+.Discover .m-auto {
+    background-image: url(assets/images/Discover-bg-Image2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.Discover .row {
+    row-gap: 70px;
+}
+
+.Discover .d-flex {
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.Discover p {
+    line-height: 24px;
+    padding: 15px 0 20px 0;
+}
+
+.Discover span {
+    width: 35px;
+    height: 7px;
+    border-radius: 31px;
+    background-color: #06FFE2;
+}
+
+.Discover span:hover {
+    background-color: #a0c5c1;
+    transition: 1s ease;
+
+}
+
+.Discover h4 {
+    color: #000000;
+}
+
+
+/* ========= End of 1.7. Discover section ======== */
+
+/* ========= 1.8. FAQS section ======== */
+
+.Faqs {
+    padding-bottom: 100px;
+}
+
+.Faqs .accordion-item {
+    border: none;
+    padding: 0 120px;
+
+}
+
+.Faqs .accordian-collapse .collapse show {
+    background-color: #F3F3F3;
+    border-radius: 20px;
+}
+
+.Faqs .accordion-button:not(.collapsed)::after {
+    background-image: url("assets/images/Minus.svg");
+}
+
+.Faqs .accordion-body {
+    background-color: #f3f3f3;
+    padding: 10px 55px 30px 60px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+.Faqs button:not(:disabled) {
+    cursor: pointer;
+    background-color: #D9D9D9;
+    padding: 30px 55px 30px 60px;
+}
+
+.Faqs .accordion-button::after {
+    background-image: url("assets/images/Plus.svg");
+
+}
+
+.Faqs button:not(:disabled):hover {
+    background-color: #c1bfbf;
+    transition: 1s ease;
+}
+
+.Faqs .accordion-button:not(.collapsed) {
+    background-color: #F3F3F3;
+    color: black;
+    box-shadow: none;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.Faqs .accordion-button {
+    border: none;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+.Faqs .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Faqs .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* ========= End of 1.8. FAQS section ======== */
+
+/* ========= 1.9. Reason section ======== */
+
+.Reason {
+    padding-bottom: 100px;
+}
+
+.Reason p {
+    padding: 10px 120px 120px 120px;
+}
+
+.Reason h3 {
+    line-height: 24px;
+    padding: 30px 0 25px 0;
+}
+
+.Reason h5 {
+    font-size: 20px;
+    line-height: 29px;
+    padding-right: 130px;
+}
+
+.Reason img {
+    width: 60px;
+}
+
+.Reason .m-0 {
+    padding-bottom: 100px;
+}
+
+/* ========= End of 1.9. Reason section ======== */
+
+/* ========= 1.10. Customer section ======== */
+
+.Customer {
+    background-image: url(assets/images/Customers_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Customer .row {
+    padding-bottom: 100px;
+}
+
+.Customer h2 {
+    padding: 100px 800px 30px 0;
+}
+
+.Customer .p-0 img {
+    width: 100%;
+}
+
+.Customer .m-0 {
+    width: 90px;
+    height: 90px;
+    border-radius: 70px;
+    background-color: #06FFE2;
+}
+
+.Customer .position-absolute {
+    bottom: 80%;
+    left: 90%;
+}
+
+.Customer p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.Customer p:nth-of-type(1) {
+    padding: 15px 20px 50px 0;
+}
+
+/* ========= End of 1.10. Customer section ======== */
+
+/* ========= 1.11. Footer section ======== */
+
+footer {
+    padding: 100px 0 50px 0;
+    background-color: #F2F2F2;
+}
+
+footer i {
+    color: #000000;
+}
+
+footer i:hover {
+    color: #82aca7;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #000000;
+}
+
+footer p:hover {
+    color: #82aca7;
+}
+
+footer h4 {
+    padding-bottom: 10px;
+}
+
+footer .m-0 {
+    column-gap: 70px;
+}
+
+footer .m-auto {
+    padding-top: 100px;
+}
+
+footer hr {
+    width: 1px;
+    margin: 0;
+    color: #000000;
+}
+
+footer hr:not([size]) {
+    height: 12px;
+}
+
+footer .p-0 {
+    column-gap: 10px;
+}
+
+
+
+
+/* ========= End of 1.11. Footer section ======== */
